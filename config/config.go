@@ -591,6 +591,9 @@ var defaultConf = Config{
 		RecordPlanInSlowLog: logutil.DefaultRecordPlanInSlowLog,
 		EnableSlowLog:       logutil.DefaultTiDBEnableSlowLog,
 	},
+	Security: Security{
+		ClusterVerifyCN: []string{},
+	},
 	Status: Status{
 		ReportStatus:    true,
 		StatusHost:      DefStatusHost,
